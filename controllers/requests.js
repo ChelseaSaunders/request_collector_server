@@ -8,6 +8,7 @@ const { response } = require('express');
 
 const pgClient = new pg.Pool({ database: config.PG_DATABASE });
 
+
 requestsRouter.use(bodyParser.json());
 
 pgClient.on('error', (err, client) => {
@@ -107,3 +108,4 @@ requestsRouter.post('/api/:endpoint', async (req, res) => {
 });
 
 module.exports = requestsRouter;
+//test
