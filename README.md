@@ -1,14 +1,14 @@
 # Request Bin Backend
 
-### Install Request Bin
+### Install Request Collector
 download the code by cloning the repository
 ```
-git clone https://github.com/alison-martinez/requestbin
+git clone https://github.com/ChelseaSaunders/request_collector_server
 ```
 
-also download the **frontend** by cloning the repository
+also download the **frontend** by cloning the repository and following installation instructions in corresponding README file.
 ```
-git clone https://github.com/ChelseaSaunders/requestbin_frontend
+git clone https://github.com/ChelseaSaunders/request_collector_frontend
 ```
 
 ### Create and initialize database
@@ -28,10 +28,10 @@ MONGODB_URI= "##URI from setting up Mongo database"
 PG_DATABASE: endpoints
 ```
 
-### Starting Request Bin Backend
+### Starting Request Collector Backend
 enter into the respository, download dependancies, and run the applciation
 ```
-cd requestbin
+cd request_collector_server
 npm install
 npm start
 ```
